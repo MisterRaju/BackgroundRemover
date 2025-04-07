@@ -13,6 +13,8 @@ The application leverages background removal functionality and displays the resu
 - 🐍 **Python 3.x**
 - ⚙️ **Flask**: A lightweight WSGI web application framework.
 - 🌐 **HTML, CSS, JavaScript**: For frontend UI and interactivity.
+- **Pillow**: A image processing library.
+
   
 ## Project Structure
 ```text
@@ -98,6 +100,7 @@ To run this project, you need to have the following installed:
 
 *   **Python 3.x**: Download from [python.org](https://www.python.org/).
 *   **Flask**: A lightweight Python web framework.
+*   **Pillow**: A image processing library.
 
 ## Author
 
