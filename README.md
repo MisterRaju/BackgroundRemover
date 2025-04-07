@@ -102,7 +102,7 @@ To run this project, you need to have the following installed:
 
 ## Author
 
-*   **MisterRaju** -github.com/MisterRaju
+*   **MisterRaju** -[MisterRaju](https://www.github.com/MisterRaju)
 ---
 
 If you find any bugs or want to contribute, feel free to fork the repository and submit a pull request.
