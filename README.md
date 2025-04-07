@@ -71,6 +71,18 @@ Previewing the Image: The output image is displayed on the page for the user to 
 Downloading the Output: The user can download the processed image by clicking the "Download Output" button.
 
 
+###Requirements
+To run this project, you need to have the following installed:
 
+Python 3.x: Download from python.org.
+
+Flask: A lightweight Python web framework.
+
+###Author
+MisterRaju - misterraju.github.io
+
+If you find any bugs or want to contribute, feel free to fork the repository and submit a pull request.
+
+Copy everything between the starting \`\`\`markdown and the ending \`\`\` and paste it into your `README.md` file. This is the exact code you requested. Sorry for the previous confusion!
 
 
