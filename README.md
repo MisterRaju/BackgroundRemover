@@ -1,19 +1,19 @@
-echo "# RemoveBG - Background Removal Web Application
+# RemoveBG - Background Removal Web Application
 
 This project is a simple web application built with **Flask** that allows users to upload an image, remove its background, and download the processed image.
 The application leverages background removal functionality and displays the result on the web page for easy access.
 
 ## Features
-- ![Upload Icon](https://img.icons8.com/ios/50/000000/upload.png) **File Upload**: Users can upload an image to the application.
-- ![Remove Icon](https://img.icons8.com/ios/50/000000/delete-background.png) **Background Removal**: The application removes the background of the uploaded image.
-- ![Preview Icon](https://img.icons8.com/ios/50/000000/image.png) **Preview**: Displays the output image as a preview on the page.
-- ![Download Icon](https://img.icons8.com/ios/50/000000/download.png) **Download**: Provides a download button to download the output image.
+- 📤 **File Upload**: Users can upload an image to the application.
+- 🧹 **Background Removal**: The application removes the background of the uploaded image.
+- 👁️‍🗨️ **Preview**: Displays the output image as a preview on the page.
+- ⬇️ **Download**: Provides a download button to download the output image.
 
 ## Technologies Used
-- **Python 3.x**
-- ![Flask Icon](https://img.icons8.com/ios/50/000000/flask.png) **Flask**: A lightweight WSGI web application framework.
-- ![Pillow Icon](https://img.icons8.com/ios/50/000000/image-file.png) **Pillow**: For image manipulation and background removal.
-- ![HTML Icon](https://img.icons8.com/ios/50/000000/html-5.png) **HTML, CSS, JavaScript**: For frontend UI and interactivity.
+- 🐍 **Python 3.x**
+- ⚙️ **Flask**: A lightweight WSGI web application framework.
+- 🖼️ **Pillow**: For image manipulation and background removal.
+- 🌐 **HTML, CSS, JavaScript**: For frontend UI and interactivity.
 
 ## Project Structure
 
@@ -75,9 +75,9 @@ Open your web browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000). 
 ## Requirements
 
 To run this project, you need to have the following installed:
-- **Python 3.x**: Download from [python.org](https://www.python.org/downloads/).
-- ![Flask Icon](https://img.icons8.com/ios/50/000000/flask.png) **Flask**: A lightweight Python web framework.
-- ![Pillow Icon](https://img.icons8.com/ios/50/000000/image-file.png) **Pillow**: Python Imaging Library (PIL) fork for image manipulation.
+- 🐍 **Python 3.x**: Download from [python.org](https://www.python.org/downloads/).
+- ⚙️ **Flask**: A lightweight Python web framework.
+- 🖼️ **Pillow**: Python Imaging Library (PIL) fork for image manipulation.
 
 ### To install dependencies:
 \`\`\`bash
@@ -91,4 +91,3 @@ pip install Flask Pillow
 ---
 
 If you find any bugs or want to contribute, feel free to fork the repository and submit a pull request.
-" > README.md
