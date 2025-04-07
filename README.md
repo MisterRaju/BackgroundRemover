@@ -62,27 +62,23 @@ This will start the Flask development server at http://127.0.0.1:5000.
 Open your web browser and go to http://127.0.0.1:5000. You can upload an image, remove its background, and preview the result directly from the web page.
 
 ## How it Works
-Uploading an Image: The user selects an image file using the file input field in the form.
 
-Processing the Image: Once the image is uploaded, the background is removed using the remove_background function in the backend.
+1.  **Uploading an Image**: The user selects an image file using the file input field in the form.
+2.  **Processing the Image**: Once the image is uploaded, the background is removed using the `remove_background` function in the backend.
+3.  **Previewing the Image**: The output image is displayed on the page for the user to preview.
+4.  **Downloading the Output**: The user can download the processed image by clicking the "Download Output" button.
 
-Previewing the Image: The output image is displayed on the page for the user to preview.
+## Requirements
 
-Downloading the Output: The user can download the processed image by clicking the "Download Output" button.
-
-
-##Requirements
 To run this project, you need to have the following installed:
 
-Python 3.x: Download from python.org.
+*   **Python 3.x**: Download from [python.org](https://www.python.org/).
+*   **Flask**: A lightweight Python web framework.
 
-Flask: A lightweight Python web framework.
+## Author
 
-##Author
-MisterRaju - misterraju.github.io
+*   **MisterRaju** - [misterraju.github.io](https://misterraju.github.io)
+
+---
 
 If you find any bugs or want to contribute, feel free to fork the repository and submit a pull request.
-
-Copy everything between the starting \`\`\`markdown and the ending \`\`\` and paste it into your `README.md` file. This is the exact code you requested. Sorry for the previous confusion!
-
-
