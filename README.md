@@ -1,4 +1,4 @@
-echo "# RemoveBG - Background Removal Web Application
+## RemoveBG - Background Removal Web Application
 
 This project is a simple web application built with **Flask** that allows users to upload an image, remove its background, and download the processed image.
 The application leverages background removal functionality and displays the result on the web page for easy access.
