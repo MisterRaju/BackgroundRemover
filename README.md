@@ -12,7 +12,6 @@ The application leverages background removal functionality and displays the resu
 ## Technologies Used
 - 🐍 **Python 3.x**
 - ⚙️ **Flask**: A lightweight WSGI web application framework.
-- 🖼️ **Pillow**: For image manipulation and background removal.
 - 🌐 **HTML, CSS, JavaScript**: For frontend UI and interactivity.
   
 ## Project Structure
