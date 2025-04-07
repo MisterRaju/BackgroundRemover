@@ -13,11 +13,18 @@
   </header>
 
   <main>
-    <form action="/remove-bg" method="POST" enctype="multipart/form-data">
+    <form id="upload-form" action="/remove-bg" method="POST" enctype="multipart/form-data">
       <label for="image">Upload Image</label>
       <input type="file" name="image" required>
       <button type="submit">Remove Background</button>
     </form>
+    
+    <!-- 🌀 Loading Animation -->
+    <div id="loader" class="loader-container hidden">
+      <div class="spinner"></div>
+      <p>Processing your image...</p>
+    </div>
+    
 
     {% if output_url %}
     <div class="preview">
@@ -31,5 +38,15 @@
   <footer>
     Background Remover Project by <strong>MisterRaju</strong>
   </footer>
+  
+  <script>
+    const form = document.getElementById("upload-form");
+    const loader = document.getElementById("loader");
+  
+    form.addEventListener("submit", () => {
+      loader.classList.remove("hidden");
+    });
+  </script>
+  
 </body>
 </html>
