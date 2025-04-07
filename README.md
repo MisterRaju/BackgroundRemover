@@ -28,6 +28,29 @@ RemoveBG/
 └── uploads/ # Folder where uploaded images are stored
 ```
 
+```bash
+mkdir RemoveBG
+cd RemoveBG
+
+:: Create files
+echo. > app.py
+echo. > requirements.txt
+
+:: Create templates folder and index.html
+mkdir templates
+cd templates
+echo. > index.html
+cd ..
+
+:: Create static folder with subfolders and files
+mkdir static
+cd static
+echo. > style.css
+mkdir output
+mkdir uploads
+cd ..
+```
+
 ## Installation
 
 Follow these steps to set up and run the project locally:
