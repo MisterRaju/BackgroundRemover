@@ -14,9 +14,9 @@ The application leverages background removal functionality and displays the resu
 - ⚙️ **Flask**: A lightweight WSGI web application framework.
 - 🖼️ **Pillow**: For image manipulation and background removal.
 - 🌐 **HTML, CSS, JavaScript**: For frontend UI and interactivity.
-
-```text
+  
 ## Project Structure
+```text
 RemoveBG/
 ├── app.py # Flask backend (main application file)
 ├── requirements.txt # Python dependencies
