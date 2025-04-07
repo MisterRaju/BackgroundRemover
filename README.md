@@ -15,6 +15,7 @@ The application leverages background removal functionality and displays the resu
 - 🖼️ **Pillow**: For image manipulation and background removal.
 - 🌐 **HTML, CSS, JavaScript**: For frontend UI and interactivity.
 
+```text
 ## Project Structure
 RemoveBG/
 ├── app.py # Flask backend (main application file)
@@ -25,6 +26,7 @@ RemoveBG/
 ├── style.css # Custom styles
 └── output/ # Output folder where processed images are saved
 └── uploads/ # Folder where uploaded images are stored
+```
 
 ## Installation
 
