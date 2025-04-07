@@ -70,10 +70,18 @@ button:hover {
 }
 
 .preview img {
-  max-width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
   border-radius: 10px;
   margin-bottom: 1rem;
+  border: 1px solid #ddd;
+}
+@media (max-width: 500px) {
+  .preview img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .download-btn {
@@ -99,7 +107,6 @@ footer {
   color: #1e3a8a;
   font-size: 0.9rem;
 }
-
 
 .loader-container {
   margin-top: 2rem;
