@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RemoveBG</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1 class="brand">Remove<span>BG</span></h1>
+    <p class="subtitle">Designed by MisterRaju</p>
+  </header>
+
+  <main>
+    <form action="/remove-bg" method="POST" enctype="multipart/form-data">
+      <label for="image">Upload Image</label>
+      <input type="file" name="image" required>
+      <button type="submit">Remove Background</button>
+    </form>
+
+    {% if output_url %}
+    <div class="preview">
+      <h2>Result Preview:</h2>
+      <img src="{{ output_url }}" alt="Output Image">
+      <a href="{{ output_url }}" download class="download-btn">Download Result</a>
+    </div>
+    {% endif %}
+  </main>
+
+  <footer>
+    Background Remover Project by <strong>MisterRaju</strong>
+  </footer>
+</body>
+</html>
