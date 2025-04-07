@@ -61,7 +61,7 @@ This will start the Flask development server at http://127.0.0.1:5000.
 ### 5. Open the Application
 Open your web browser and go to http://127.0.0.1:5000. You can upload an image, remove its background, and preview the result directly from the web page.
 
-### How it Works
+## How it Works
 Uploading an Image: The user selects an image file using the file input field in the form.
 
 Processing the Image: Once the image is uploaded, the background is removed using the remove_background function in the backend.
@@ -71,14 +71,14 @@ Previewing the Image: The output image is displayed on the page for the user to 
 Downloading the Output: The user can download the processed image by clicking the "Download Output" button.
 
 
-###Requirements
+##Requirements
 To run this project, you need to have the following installed:
 
 Python 3.x: Download from python.org.
 
 Flask: A lightweight Python web framework.
 
-###Author
+##Author
 MisterRaju - misterraju.github.io
 
 If you find any bugs or want to contribute, feel free to fork the repository and submit a pull request.
