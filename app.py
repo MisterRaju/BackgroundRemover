@@ -7,7 +7,6 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
 app.config['OUTPUT_FOLDER'] = 'static/output'
 
-# Ensure folders exist
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 os.makedirs(app.config['OUTPUT_FOLDER'], exist_ok=True)
 
@@ -22,7 +21,7 @@ def remove_bg():
     input_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     file.save(input_path)
 
-    output_filename = 'output_' + filename
+    output_filename = 'output_' + os.path.splitext(filename)[0] + '.png'
     output_path = os.path.join(app.config['OUTPUT_FOLDER'], output_filename)
 
     remove_background(input_path, output_path)
